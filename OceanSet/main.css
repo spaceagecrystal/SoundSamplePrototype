@@ -1,0 +1,22 @@
+
+
+.center { 
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 0px solid green; 
+}
+
+.center img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.center img:active {
+width: 210px;
+
+}

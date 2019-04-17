@@ -1,0 +1,25 @@
+<html>
+<title>Sound Index</title>
+<head>
+	  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+<audio id="audio" src="drone.mp3" autoplay="false" ></audio>
+    <body>
+    <script>
+    function playSound() {
+        var sound = document.getElementById("audio");
+        sound.pause();
+		sound.currentTime = 0;
+        sound.play();
+      }
+    </script>
+	<div id="center" class="center">
+        Choose a Sound Library<br><br>
+		<a href= "OceanSet/index.html" target="_blank">Ocean Set</a><br>
+        <a href= "ChineseOperaSet/index.html" target="_blank">Opera Set</a><br>       
+        <a href= "BirdSet/index.html" target="_blank">Bird Set</a><br>
+        </div>
+	</div>
+</body>
+</html>

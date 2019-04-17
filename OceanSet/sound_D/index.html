@@ -1,0 +1,21 @@
+<html>
+<title>Sound D</title>
+<head>
+	  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+<audio id="audio" src="sound.mp3" autoplay="false" ></audio>
+    <body onclick="playSound();">D
+    <script>
+    function playSound() {
+        var sound = document.getElementById("audio");
+        sound.pause();
+		sound.currentTime = 0;
+        sound.play();
+      }
+    </script>
+	<div id="center" class="center">
+		<div id="image"> <img src="default.png"></img></div>
+	</div>
+</body>
+</html>

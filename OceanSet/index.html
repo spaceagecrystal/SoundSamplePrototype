@@ -1,0 +1,27 @@
+<html>
+<title>Sound Library: Ocean Sounds</title>
+<head>
+	  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+<audio id="audio" src="drone.mp3" autoplay="false" ></audio>
+    <body>
+    <script>
+    function playSound() {
+        var sound = document.getElementById("audio");
+        sound.pause();
+		sound.currentTime = 0;
+        sound.play();
+      }
+    </script>
+	<div id="center" class="center">
+        <b>Sound Index</b><br><br><a href="#" onclick="playSound();">Start Drone</a><br><br>
+            Choose a Sound (One or More)<br><br>
+		<a href= "sound_A/index.html" target="_blank">Sound A</a><br>
+        <a href= "sound_B/index.html" target="_blank">Sound B</a><br>       
+        <a href= "sound_C/index.html" target="_blank">Sound C</a><br>
+        <a href= "sound_D/index.html" target="_blank">Sound D</a><br>
+        </div>
+	</div>
+</body>
+</html>
